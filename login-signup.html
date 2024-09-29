@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login & Signup</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Login Block -->
+        <div class="form-block">
+            <h2>Login</h2>
+            <form id="login-form" class="form" action="#">
+                <div class="input-group">
+                    <input type="email" id="login-email" required>
+                    <label for="login-email">Email</label>
+                </div>
+                <div class="input-group">
+                    <input type="password" id="login-password" required>
+                    <label for="login-password">Password</label>
+                </div>
+                <button type="submit">Login</button>
+            </form>
+        </div>
+
+        <!-- Space between forms -->
+        <div class="spacer"></div>
+
+        <!-- Signup Block -->
+        <div class="form-block">
+            <h2>Signup</h2>
+            <form id="signup-form" class="form" action="#">
+                <div class="input-group">
+                    <input type="text" id="signup-name" required>
+                    <label for="signup-name">Full Name</label>
+                </div>
+                <div class="input-group">
+                    <input type="email" id="signup-email" required>
+                    <label for="signup-email">Email</label>
+                </div>
+                <div class="input-group">
+                    <input type="password" id="signup-password" required>
+                    <label for="signup-password">Password</label>
+                </div>
+                <div class="input-group">
+                    <input type="password" id="signup-confirm-password" required>
+                    <label for="signup-confirm-password">Confirm Password</label>
+                </div>
+                <button type="submit">Signup</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
